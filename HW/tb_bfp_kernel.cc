@@ -16,9 +16,6 @@
 
 #include "bfp_kernel.h"  
 
-//------------------------------------------------------------------------------
-// Utilidades numéricas y métricas
-//------------------------------------------------------------------------------
 static inline bool is_nan_f(float x) {
     return std::isnan(static_cast<double>(x));
 }
